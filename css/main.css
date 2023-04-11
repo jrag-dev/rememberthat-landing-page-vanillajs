@@ -1,0 +1,235 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F2F2F2;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+/* ---- navbar styles ----- */
+.navbar {
+  background: #FFFFFF;
+  padding: 1em;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+}
+.navbar .container .logo {
+  text-decoration: none;
+  font-weight: 700;
+  color: #212121;
+  font-size: 1.2em;
+}
+.navbar .container .logo span {
+  color: #007AF3;
+}
+.navbar .container .mobile-menu {
+  cursor: pointer;
+}
+.navbar .container .mobile-menu.inactive {
+  display: none;
+}
+.navbar .container .nav {
+  display: none;
+}
+.navbar .container .nav.active {
+  display: block;
+  background: #20272E;
+  width: 70%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1em;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+}
+.navbar .container .nav.active .primary-nav {
+  margin-top: 5em;
+}
+.navbar .container .nav.active .mobile-menu-exit {
+  margin: 0.5em;
+  cursor: pointer;
+}
+.navbar .container .nav.active li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.1em;
+}
+.navbar .container .nav.active li a:hover {
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+}
+.hero .container {
+  display: grid;
+  place-items: center;
+  gap: 3em;
+}
+.hero .container .left-col .subhead {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #a8a0a0;
+  letter-spacing: 0.3em;
+}
+.hero .container .left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: 0.2em;
+}
+.hero .container .left-col .hero-cta {
+  margin-top: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+.hero .container .left-col .hero-cta .primary-cta {
+  background: #007AF3;
+  border-radius: 5em;
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0.6em 1.3em;
+  text-decoration: none;
+  width: 50%;
+}
+.hero .container .left-col .hero-cta .watch-video-cta {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.hero .container .right-col {
+  width: 100%;
+}
+.hero .container .right-col .hero-img {
+  width: 100%;
+}
+
+.features-section {
+  background: #20272E;
+  color: #FFFFFF;
+}
+.features-section .features-list {
+  display: grid;
+  place-items: start;
+  gap: 3em;
+  margin-left: 2em;
+}
+.features-section .features-list li {
+  position: relative;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5em 0.1em;
+}
+.features-section .features-list li:before {
+  content: "";
+  position: absolute;
+  left: -2em;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/bullet.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5em;
+}
+.features-section .features-img {
+  display: none;
+}
+
+.testimonials-section {
+  background: #007AF3;
+  color: #FFFFFF;
+}
+.testimonials-section ul {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 5em;
+}
+.testimonials-section ul li {
+  background: #006BD6;
+  border-radius: 1em;
+  padding: 2em 1em;
+  width: 80%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.testimonials-section ul li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #006BD6;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+
+.contact-section .container .contact-left h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.contact-section .container .contact-left .contact-form label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+.contact-section .container .contact-left .contact-form input, .contact-section .container .contact-left .contact-form textarea {
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+  border: 1px solid #a6a6a6;
+}
+.contact-section .container .contact-left .contact-form input[type=submit] {
+  background: #007AF3;
+  color: #FFFFFF;
+  font-size: 1em;
+  border-radius: 5em;
+  margin-bottom: 5em;
+  display: inline-block;
+  padding: 0.8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+.contact-section .container .contact-right iframe {
+  width: 100%;
+  height: 300px;
+}
+
+/*
+IUPB_QPRFG90@NEFYP.COM
+
+
+*/
+
+/*# sourceMappingURL=main.css.map */

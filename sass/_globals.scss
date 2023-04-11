@@ -1,0 +1,23 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: $white-grayish-color;
+	font-family: 'Poppins';
+	font-size: $font-size;
+}
+
+a {
+	color: #444444;
+}
+
+ul {
+	list-style-type: none;
+}
+
+section {
+	padding: 5em 2em;
+}

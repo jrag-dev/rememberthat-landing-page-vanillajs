@@ -1,0 +1,36 @@
+.features-section {
+	background: #20272E;
+	color: $white-color;
+	
+	& .features-list {
+		display: grid;
+		place-items: start;
+		gap: 3em;
+		margin-left: 2em;
+		
+		li {
+			position: relative;
+			font-size: 1.1em;
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+			padding: .5em .1em;
+			
+			&:before {
+				content: "";
+				position: absolute;
+				left: -2em;;
+				width: 20px;
+				height: 20px;
+				background-image: url('../images/bullet.svg');
+				background-repeat: no-repeat;
+				background-size: contain;
+				margin-right: .5em;
+			}
+		}
+	}
+
+	& .features-img {
+		display: none;
+	}
+}
