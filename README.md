@@ -3,16 +3,13 @@
 Esta es una landing page creada para parcticar mis habilidades usando HTML, Sass y JavaScript.
 
 
-### Screenshot
+### Captura de pantalla
 
-![Mobile](./design/mobile-design.png)
-![Mobile](./design/mobile-states.png)
-![Desktop](./design/desktop-design.png)
-![Desktop](./design/desktop-states.png)
+![Desktop](./design/desktop-full-design.png)
 
 ## Enlace al Demo del sitio
 
-- Solution URL: [https://intro-component-signup-form-vanillajs.netlify.app/](https://intro-component-signup-form-vanillajs.netlify.app/)
+- Solution URL: [https://rememberthat-landing-page-vanillajs.netlify.app/](https://rememberthat-landing-page-vanillajs.netlify.app/)
 
 ## El sitio fue construido con
 
