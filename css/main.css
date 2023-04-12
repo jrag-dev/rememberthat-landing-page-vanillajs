@@ -69,7 +69,7 @@ section {
   margin-top: 5em;
 }
 .navbar .container .nav.active .mobile-menu-exit {
-  margin: 0.5em;
+  margin: 0.2em;
   cursor: pointer;
 }
 .navbar .container .nav.active li a {
