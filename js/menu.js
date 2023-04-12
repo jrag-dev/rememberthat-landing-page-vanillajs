@@ -21,4 +21,12 @@ export function menuMobile(btnHamburger, btnClose, menuList) {
 			$btnHamburger.classList.remove('inactive');
 		}
 	})
+
+	window.addEventListener('resize', (e) => {
+		if (e.target.innerWidth >= 768) {
+			$btnHamburger.classList.remove('inactive');
+			$menuList.classList.remove('active');
+		}
+	})
+
 }
