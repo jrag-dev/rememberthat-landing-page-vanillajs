@@ -5,7 +5,7 @@ Esta es una landing page creada para parcticar mis habilidades usando HTML, Sass
 
 ### Captura de pantalla
 
-![Desktop](./design/desktop-full-design.png)
+![Desktop](./design/desktop-full.png)
 
 ## Enlace al Demo del sitio
 
